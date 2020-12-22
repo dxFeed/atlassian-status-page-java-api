@@ -7,7 +7,7 @@ This library implements a subset of Atlassian Statuspage REST API to simplify it
 The simplest way to use this library is to include it as a dependency into your project like this:
 ```maven
 <dependency>
-    <groupId>ws.slink</groupId>
+    <groupId>com.dxfeed</groupId>
     <artifactId>atlassian-status-page-java-api</artifactId>
     <version>0.0.1</version>
 </dependency>

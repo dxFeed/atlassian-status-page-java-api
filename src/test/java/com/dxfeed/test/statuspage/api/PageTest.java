@@ -36,10 +36,3 @@ public class PageTest {
     }
 
 }
-
-
-/*
-    resource.run(() ->
-        resource.getStatusPage().pages().stream().forEach(System.out::println)
-    );
- */

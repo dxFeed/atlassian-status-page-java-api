@@ -3,7 +3,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>ws.slink</groupId>
+    <groupId>com.dxfeed</groupId>
     <artifactId>atlassian-status-page-java-api</artifactId>
     <version>0.0.1</version>
     <organization>
@@ -13,7 +13,7 @@
     <name>atlassian-status-page-java-api</name>
     <description>Java wrapper for Atlassian Statuspage REST API</description>
     <packaging>jar</packaging>
-    <url>http://github.com/mvkvl/atlassian-status-page-java-api</url>
+    <url>http://github.com/dxfeed/atlassian-status-page-java-api</url>
 
     <licenses>
         <license>
@@ -25,16 +25,16 @@
     <developers>
         <developer>
             <name>Mikhail Kantur</name>
-            <email>kami@slink.ws</email>
-            <organization>ws.slink</organization>
-            <organizationUrl>http://github.com/mvkvl</organizationUrl>
+            <email>mikhail.kantur@devexperts.com</email>
+            <organization>dxfeed</organization>
+            <organizationUrl>http://www.dxfeed.com</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/mvkvl/atlassian-status-page-java-api.git</connection>
-        <developerConnection>scm:git:ssh://github.com:mvkvl/atlassian-status-page-java-api.git</developerConnection>
-        <url>http://github.com/mvkvl/atlassian-status-page-java-api/tree/master</url>
+        <connection>scm:git:git://github.com/dxfeed/atlassian-status-page-java-api.git</connection>
+        <developerConnection>scm:git:ssh://github.com:dxfeed/atlassian-status-page-java-api.git</developerConnection>
+        <url>http://github.com/dxfeed/atlassian-status-page-java-api/tree/master</url>
     </scm>
 
     <properties>

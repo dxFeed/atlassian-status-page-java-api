@@ -86,18 +86,3 @@ public class ComponentTest {
     }
 
 }
-
-
-/*
-        resource.run(() -> {
-            Page page = resource.getStatusPage().getPage(resource.getStatusPage().pages().get(0).id(), true).get();
-            System.out.println("test page     : " + page);
-
-            Component component = resource.getStatusPage().components(page.id()).get(0);
-            System.out.println("test component: " + component);
-
-            resource.getStatusPage().getComponent(page.id(), component.id()).ifPresent(System.out::println);
-            resource.getStatusPage().getComponent(page.id(), component.id(), true).ifPresent(System.out::println);
-            resource.getStatusPage().getComponent(page.id(), "stub", true).ifPresent(System.out::println);
-        });
- */
